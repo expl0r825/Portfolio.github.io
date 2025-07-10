@@ -67,11 +67,24 @@ function App() {
         </div>
       </section>
 
-      <section className="section contact-section" aria-labelledby="contact-title">
-        <h2 className="section-title" id="contact-title">Contact</h2>
-        <a className="contact-link" href="mailto:martom825@gmail.com" style={{ display: 'flex', alignItems: 'center', gap: '0.5em' }}>
-        martom825@gmail.com
-        </a>
+      <section className="section contact-section" aria-labelledby="socials-title">
+        <h2 className="section-title" id="socials-title">Socials</h2>
+        <div className="socials-row">
+          <a className="contact-link" href="mailto:martom825@gmail.com" style={{ display: 'flex', alignItems: 'center', gap: '0.5em' }}>
+            Email: martom825@gmail.com
+          </a>
+          <a className="contact-link" href="https://github.com/expl0r825" target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', gap: '0.5em' }}>
+            GitHub: expl0r825
+          </a>
+        </div>
+        <div className="socials-row">
+          <a className="contact-link" href="https://linkedin.com/in/expl0r825" target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', gap: '0.5em' }}>
+            LinkedIn: Martin Tomov
+          </a>
+          <a className="contact-link" href="https://instagram.com/expl0r825" target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', gap: '0.5em' }}>
+            Instagram: @m.tomov1317
+          </a>
+        </div>
       </section>
     </main>
   );

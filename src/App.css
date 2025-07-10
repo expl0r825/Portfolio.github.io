@@ -108,17 +108,32 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.5rem;
+  gap: 1rem;
 }
 
 .contact-link {
   color: var(--primary);
   font-weight: 500;
-  text-decoration: underline;
   transition: color 0.2s;
 }
 .contact-link:hover {
   color: var(--accent);
+}
+
+.socials-row {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  justify-content: center;
+  margin-bottom: 1.7rem;
+}
+@media (max-width: 600px) {
+  .socials-row {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
 }
 
 @media (max-width: 600px) {
